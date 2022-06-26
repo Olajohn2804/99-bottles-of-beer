@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>99 bottles of beer on the wall</title>
+    </head>
+    <style>
+        body{
+            text-align: center;
+            color: brown;
+            background-image: url(back1.jpg);
+            height: 100%;
+            width: 100%;
+            background-position: center;
+        }
+        #re{
+            color: brown;
+            text-align: center;
+            /* background-i mage: url(../back1.jpg); */
+            height: 100%;
+            width: 100%;
+            font-size: x-large;
+            font-family: cursive;
+        }
+        h6{
+            /* text-align: right; */
+        }
+    </style>
+    <body>
+        <h1>99 bottles of beer on the wall</h1>
+        <div id="re"></div>
+        <h6>by Dev john</h6>
+        <script>
+            for(i=99;i>=0;i--){
+             if(i>0){   re.innerHTML  += ` ${i} bottles of beer on the wall.<br>${i}bottles of beer on the wall.<br>${i} bottles of beer, <br> take one down pass it around.<br>`
+            }else if(i==0){
+                re.innerHTML += `No more bottles of beer<br> 
+                go  and  get more bottles of beer from the <br>store `
+            }
+            }
+        </script>
+    </body>
+    </html>
